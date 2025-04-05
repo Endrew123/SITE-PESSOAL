@@ -3,230 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Endrew Luan</title>
     <link rel="shortcut icon" href="./CSS/favicon (2).ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: "Merriweather", serif;
-            color: #40514e;
-            text-align: center;
-        }
-
-        h1 {
-            font-family: 'Sacramento', cursive;
-            font-size: 3rem;
-            color: #66BFBF;
-        }
-
-        h2, h3 {
-            font-family: 'Montserrat', sans-serif;
-            color: #11999E;
-            font-weight: normal;
-        }
-
-        .top-container {
-            background-color: #14274e;
-            padding: 50px 20px;
-            position: relative;
-        }
-
-        .celebro, .celebro2 {
-            width: 50px;
-            position: absolute;
-        }
-
-        .celebro {
-            right: 10px;
-            top: 10px;
-        }
-
-        .celebro2 {
-            left: 10px;
-            bottom: 10px;
-        }
-
-        .img {
-            margin-top: 20px;
-            width: 100px;
-        }
-
-        .midle-container {
-            padding: 50px 20px;
-        }
-
-        .imagem1 {
-            width: 150px;
-            border-radius: 50%;
-        }
-
-        .skills {
-            padding: 30px 20px;
-        }
-
-        .skill-row {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 40px;
-        }
-
-        .skill-row img {
-            width: 150px;
-        }
-
-        .skill-row p {
-            max-width: 90%;
-            font-size: 1rem;
-            margin-top: 15px;
-        }
-
-        .contact-me {
-            padding: 30px 20px;
-        }
-
-        .contact-message {
-            margin: 20px 0;
-        }
-
-        .btn {
-            background: #3498db;
-            border: none;
-            border-radius: 28px;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            font-size: 1rem;
-        }
-
-        .btn:hover {
-            background: #3cb0fd;
-        }
-
-        .bottom-container {
-            padding: 20px;
-            font-family: monospace;
-        }
-
-        /* Menu hamburguer */
-        .menu {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            position: absolute;
-            top: 20px;
-            left: 20px;
-        }
-
-        .bar {
-            width: 25px;
-            height: 3px;
-            background-color: white;
-            margin: 4px 0;
-        }
-
-        nav {
-            display: none;
-            flex-direction: column;
-            background-color: #14274e;
-            position: absolute;
-            top: 60px;
-            left: 20px;
-            padding: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 5px 0;
-        }
-
-        .show {
-            display: flex;
-        }
-
-        @media(min-width: 768px) {
-            h1 {
-                font-size: 5rem;
-            }
-
-            .skill-row {
-                flex-direction: row;
-                text-align: left;
-                justify-content: center;
-                gap: 20px;
-            }
-
-            .skill-row p {
-                max-width: 600px;
-            }
-
-            .menu, nav {
-                display: none !important;
-            }
-        }
-    </style>
-    <script>
-        function toggleMenu() {
-            const nav = document.querySelector('nav');
-            nav.classList.toggle('show');
-        }
-    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="top-container">
-        <div class="menu" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        <nav>
-            <a href="#skills">Habilidades</a>
-            <a href="#contato">Contato</a>
-        </nav>
-
         <img class="celebro" src="./IMG/celebro-tech.png" alt="celebro tecnologia">
-        <h1>Endrew Luan</h1>
-        <h2 class="TEXTO2"><span class="efeito">Descom</span>plicando a tecnologia.</h2>
-        <img class="celebro2" src="./IMG/celebro-tech.png" alt="celebro tecnologia">
-        <img class="img" src="./IMG/tech.png" alt="tecnologia">
+         <h1>Endrew Luan</h1>
+         <h2 class="TEXTO2"><span class="efeito">Descom</span>plicando atecnologia.</h2>
+         <img class="celebro2 " src="./IMG/celebro-tech.png" alt="celebro tecnologia">
+         <img class=" img" src="./IMG/tech.png" alt="tecnologia">
     </header>
-
-    <main class="midle-container">
+    <main class="midle-container"> 
         <div class="profile">
-            <img class="imagem1" src="/IMG/Capa para site.png" alt="Endrew Luan">
-            <h2>Olá</h2>
-            <p class="intro"><span class="Especialista">Sou Especialista Web</span>.</p>
-        </div>
-
-        <div class="skills" id="skills">
+            <figure>
+                <img class="imagem1" src="/IMG/Capa para site.png" alt="Endrew Luan" />
+                <figcaption>
+                    <h2>Olá</h2>
+                    <p class="intro"><span class="Especialista">Sou Especialista Web</span>.</p>
+                </figcaption>
+            </figure>
+        </div> 
+    </figure>
+</div>
+        <div class="skills">
             <h2>Minhas Habilidades.</h2>
-            <div class="skill-row">
-                <img src="https://media.giphy.com/media/fAnzw6YK33jMwzp5wp/giphy.gif" alt="escrevendo código">
-                <p>Meus primeiros passos na tecnologia foi em 2020, quando conheci as linguagens de programação e os softwares com o seu poder de criar e moldar sistemas. Entrei na faculdade em 2022 e desde então não parei mais.</p>
-            </div>
-            <div class="skill-row">
-                <img src="img/fazer-muito.png" alt="Muito Fazedor">
-                <p>Entrei no exército em 2020, onde aprendi muitas lições de caráter e honra, e lá aprendi a ser proativo sempre, e sempre fazer antes de tudo e todos. Permanecendo na força até 2027.</p>
-            </div>
+            <figure class="skill-row">
+                <img class="code-img" src="https://media.giphy.com/media/fAnzw6YK33jMwzp5wp/giphy.gif" alt="escrevendo código" />
+                <figcaption>
+                    <h3 class="Desenvolvedor">Desenvolvedor Full Stack</h3>
+                    <p class=" primeiros">Meus primeiros passos na tecnologia foi em 2020, quando conheci as liguagens de programação e os softwares com o seu poder de criar e moldar sistemas.</p>
+                </figcaption>
+            </figure>
+            <figure class="skill-row">
+                <img class="chilli-img" src="img/fazer-muito.png" alt="Muito Fazedor" />
+                <p class="p">Entrei no exército em 2020, onde aprendi muitas lições de caráter e honra, e lá aprendi a ser proativo sempre, e sempre fazer antes de tudo e todos. permanecendo na força até 2027.</p>
+            </figure>
         </div>
-
-        <div class="contact-me" id="contato">
+        <div class="contact-me">
             <h2>Entre em Contato</h2>
-            <h3>Estarei à sua disposição para lhe melhor atender.</h3>
-            <p class="contact-message">Mande uma mensagem relatando o que você deseja que em no máximo 48h irei responder seu WhatsApp!</p>
-            <a class="btn" href="https://w.app/Gtech" target="_blank">Entre em contato</a>
+            <p class="contact-message">Mande uma mensagem relatando o que você deseja que em no máximo 48h irei responder seu whatsapp!</p>
+            <a class="btn" href="https://w.app/Gtech " target="_blank">Entre em contato</a>
         </div>
     </main>
-
     <footer class="bottom-container">
-        <p class="marca">2024 Endrew Luan Gtech</p>
+        <P class="marca"> 2024 Endrew Luan Gtech</P>
     </footer>
 </body>
 </html>
