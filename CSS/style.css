@@ -1,0 +1,140 @@
+/*======================SEÇÃO-TAGS=====================*/
+
+body {
+    color: #40514e;
+    margin: 0%;
+    text-align: center;
+    font-family:"merriweather", serif;
+    font-size: 150%;
+    box-sizing: border-box;
+}
+h1{
+    font-family:'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 0 auto ; /* a 16px  1em = 16px*/
+    color:#66BFBF;
+}
+h2, h3{
+    font-family: 'montserrat', sans-serif;
+    line-height: 2;
+    font-size: 2,5em;
+    color: #11999E;
+    font-weight: normal;
+}
+/*======================SEÇÃO-CLASSES=====================*/
+
+.top-container{
+    background-color: #14274e;
+    position: relative;
+    padding-top: 100px;
+}
+.midle-container{
+    margin: 100px auto;
+}
+.efeito{
+    text-decoration: underline;
+}
+.celebro{
+    position: absolute;
+    right: 10%;
+    top: 10px;
+}
+.celebro2{
+    position: absolute;
+    left: 10%;
+    bottom:1% ;
+}
+.img{
+    position: relative;
+    top: 32px;
+}
+.imagem1{
+    width: 200px;
+}
+
+.code-img{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    right: 480px;
+    
+}   
+.TEXTO2{
+    color:#66BFBF;
+}
+.Desenvolvedor{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    font-size: 1.3rem;
+    right: 200px;
+}
+.primeiros{
+    text-align: center;
+    width: 700px;
+    position: relative;
+    bottom: 220px;
+    left: 550px;
+    font-size: 1rem;
+}
+.chilli-img{
+        display: inline-block;
+        position: relative;
+        width: 180px;
+        right: 480px;
+        left:450px;
+        bottom:250px ;
+}
+.p{
+    width: 700px;
+    position: relative;
+    bottom: 369px;
+    left: 550px;
+    font-size: 1rem;
+}
+.intro{
+    font-size: 1rem;
+}
+.bottom-container{
+   
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  .marca{
+    font-family: monospace;
+    position: relative;
+    top: 300px;
+    margin: -15% auto;
+  }
+  .contact-me{
+ 
+    display: block;
+    position: relative;
+    font-size: 1rem;
+    margin-top: -18%;
+  }
